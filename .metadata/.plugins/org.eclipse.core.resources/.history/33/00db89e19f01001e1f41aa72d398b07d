@@ -1,0 +1,11 @@
+package com.example.demo.repository;
+
+import com.example.demo.repository.modelo.Vehiculo;
+
+public interface PropietarioRepository {
+	
+	public void insertarP(Vehiculo vehiculo);
+
+	public void eliminarP(String placa);
+
+}

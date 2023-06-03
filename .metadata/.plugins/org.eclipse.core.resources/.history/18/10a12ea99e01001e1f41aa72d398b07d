@@ -1,0 +1,15 @@
+package com.example.demo.repository;
+
+import com.example.demo.repository.modelo.Vehiculo;
+
+public interface MatriculaRepository {
+	
+	public void insertarM(Vehiculo vehiculo);
+
+	public void actualizarM(Vehiculo vehiculo);
+
+	public M seleccionarM(String placa);
+
+	public void eliminar(String placa);
+
+}

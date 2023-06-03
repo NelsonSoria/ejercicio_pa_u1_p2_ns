@@ -1,0 +1,34 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.repository.modelo.Propietario;
+import com.example.demo.repository.modelo.Vehiculo;
+import com.example.demo.service.MatriculaService;
+
+@SpringBootApplication
+public class EjercicioPaU1P2NsApplication implements CommandLineRunner{
+
+	@Autowired
+	private MatriculaService matriculaService;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(EjercicioPaU1P2NsApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Vehiculo v= new Vehiculo();
+		v.
+		
+		Propietario p= new Propietario(); 
+	
+		
+		
+	}
+
+}
